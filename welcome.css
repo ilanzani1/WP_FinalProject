@@ -1,0 +1,24 @@
+body {
+	background-image: url('harrypottermain.png');
+	background-size: cover;
+}
+
+#btn {
+	background-color: #9C1203;
+	width: 150px;
+	font-size: 20px;
+	color: black;
+	border: 1px solid black;
+	border-radius: 20px;
+	margin: 600px 400px 10px 650px;
+	padding: 10px 10px;
+}
+
+#btn:hover{
+	cursor: pointer;
+	background-color: gray;
+}
+
+#btn:focus{
+	outline: 0;
+}

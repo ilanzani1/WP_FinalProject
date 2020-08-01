@@ -1,0 +1,83 @@
+body {
+	background-image: url('HPbackground.png');
+	background-size: cover;
+
+}
+
+.grid {
+	width: 700px;
+	height: 600px;
+	margin-left: 30px;
+	background-image: url('floatingCandles.png');
+	padding: 10 px 50px 50px 50px;
+	border-radius: 20px;
+	border 2px solid black;
+	box-shadow: 10px 15px 50px #c7782c;
+}
+
+
+.grid h1 {
+	font-family: serif;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	padding: 2px 0px;
+	border-radius: 50px;
+}
+
+.grid form {
+	font-family: serif;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	padding: 2px 0px;
+	border-radius: 50px;
+}
+
+.grid #question {
+	font-family: serif;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+.button {
+	margin-top:30px;
+}
+
+#btn, #btn0, #btn1, #btn2, #btn3 {
+	background-image: url('BRASS.png');
+	width: 250px;
+	font-size: 20px;
+	color: white;
+	border-radius: 20px;
+	margin: 30px 40px 10px 50px;
+	padding: 10px 10px;	
+}
+
+#score {
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	padding: 2px 0px;
+}
+
+#progress {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+		
+}
+
+#btn:hover, #btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+	cursor: pointer;
+	background-color: gray;
+}
+
+#btn:focus, #btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+	outline: 0;
+}
+
+
+
+
